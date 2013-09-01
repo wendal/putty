@@ -1101,7 +1101,7 @@ void set_raw_mouse_mode(void *frontend, int activate)
  */
 void connection_fatal(void *frontend, char *fmt, ...)
 {
-    va_list ap;
+/*    va_list ap;
     char *stuff, morestuff[100];
 
     va_start(ap, fmt);
@@ -1115,7 +1115,7 @@ void connection_fatal(void *frontend, char *fmt, ...)
 	PostQuitMessage(1);
     else {
 	must_close_session = TRUE;
-    }
+    }*/
 }
 
 /*
